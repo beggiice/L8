@@ -3,9 +3,14 @@
 and prints out their sum. The for-loop should be responsible for adding each number to it’s previous sum.
 Finally print the sum.
 Correct sum is 55.
-
 */
+import 'dart:io';
+import 'dart:convert';
+
 void main(List<String> arguments) {
-  print('Hello world');
+int nub2 = 1;
+  for (int i = 1; i <= 10 ;i++){
+    print(i);
+  }
   
 }

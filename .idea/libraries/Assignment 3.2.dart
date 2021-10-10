@@ -18,15 +18,22 @@ Output
 */
 
 import 'dart:io';
+import 'dart:convert';
 
 void main(List<String> arguments) {
 
-
+int number;
+while(true){
   print('Type in a number from 1 to 10');
-  int nub2 = int.parse(stdin.readLineSync());
+  number = int.parse(stdin.readLineSync()!);
+  while(number<=10 && number>0){
 
-  for (int i = 1; i <= 10 ; i++){
-    print('${nub2} * ${i} = ${nub2*i}');
+    for (int i = 1; i <= 10 ; i++){
+      print('${number} * ${i} = ${number*i}');
+      }
+    break;
+    }
   }
-  
 }
+
+

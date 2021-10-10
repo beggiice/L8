@@ -12,9 +12,17 @@ Here is the step-by-step algorithm to solve this challenge.
 (c) If num > 0 then increment count by 1 i.e. count++.
 (d) Divide num by 10 to remove last digit of the given number i.e. num = num / 10.
 (e) Repeat step c and d till num > 0 or num != 0
-
 */
+import 'dart:io';
+import 'dart:convert';
 
-void main(List<String> arguments) {
-  print('Hello world');
+
+
+void main() {
+  import 'dart:io';
+  void main()
+  {
+    String name = stdin.readLineSync()!;
+    print("Hello, $name");
+  }
 }
