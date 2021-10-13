@@ -8,9 +8,14 @@ import 'dart:io';
 import 'dart:convert';
 
 void main(List<String> arguments) {
-int nub2 = 1;
-  for (int i = 1; i <= 10 ;i++){
+
+int i = 1;
+int ni = 1;
+  for (i; i <= 55 ; i= i+1+i){
+
     print(i);
+
+
   }
-  
+
 }
