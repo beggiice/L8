@@ -11,17 +11,17 @@ import 'dart:convert';
 
 void main(List<String> arguments) {
 
-List <int> [
+//List <int>
 
 
+int nub2 ;
 
-]
-  while (ture) {
-    print('Type in a number')
-    int nub = int.parse(stdin.readByteSync());
-    print('object');
+  while (true) {
+    print('Type in a number');
+    nub2 = int.parse(stdin.readLineSync()!);
+    print(nub2);
   }
-  print(object)
+
 
 }
 
