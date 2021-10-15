@@ -7,21 +7,21 @@ sum and average of the numbers
 import 'dart:io';
 import 'dart:convert';
 
-
-
 void main(List<String> arguments) {
 
-//List <int>
+  double answer = 0;
+  double numb ;
+  double counter ;
+  double average ;
+  int times = 5;
 
-
-int nub2 ;
-
-  while (true) {
-    print('Type in a number');
-    nub2 = int.parse(stdin.readLineSync()!);
-    print(nub2);
+  print('Type in 5 numbers');
+  for (counter = 1; counter <= times ;counter++){
+    numb = double.parse(stdin.readLineSync());
+    answer = answer + numb ;
   }
-
+  average = answer / times ;
+  print('The sum is ${answer} and the average is ${average} ');
 
 }
 
