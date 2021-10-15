@@ -11,10 +11,21 @@
 
 
  */
+import 'dart:io';
+
 
 void main() {
 
+
 }
+
+void printString(String printThis){
+  printSting('Hello');
+  printString('Does this work');
+}
+
+
+
 
 // Your method printString, here
 

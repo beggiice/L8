@@ -42,6 +42,11 @@
 
 
 void main() {
+  loner();
+  int number = giver();
+  taker(number);
+  double sher
+  print('i got $number');
 
 }
 

@@ -31,13 +31,19 @@
   greeting method, using the variable userName as input.
 
  */
+import 'dart:io';
 
+
+
+String? name;
 void main() {
-  String userName;
-}
+  print('Type in your name');
+  name = stdin.readLineSync();
+  greeting(name);
 
-void greeting(String name) {
-  print('Welcome to the world of functions, $name!');
-}
 
+}
+void greeting(String? name) {
+  print('Hello $name');
+}
 

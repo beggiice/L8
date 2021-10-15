@@ -13,6 +13,10 @@
 
 
  */
+import 'ch5.dart';
+import 'dart:io';
+import 'ch7.dart';
+import 'dart:core';
 
 
 void main() {
@@ -20,7 +24,9 @@ void main() {
   bool continueRunning = true;
   List<int> myNumbers = [];
   while(continueRunning) {
-
+    int nextnumber = getInt();
+    myNumbers.add(nextnumber);
+    continueRunning = getYesNo('do you want to contiue?');
   }
   print('The numbers you gave me were: $myNumbers');
 }

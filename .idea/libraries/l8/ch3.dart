@@ -15,18 +15,24 @@
   an input into the printString function.
 
  */
+import 'dart:io';
+import 'dart:convert';
+
 
 void main() {
-
+  String name = getName();
+  printString('Hello $name');
 }
 
 // Create getName here
-
-
-// Create getName here
+String getName(){
+  print('What is your name?');
+  String userName = stdin.readLineSync();
+  return userName;
+}
 
 // Paste printString() here
-
-
-// Paste printString() here
+void printString(String printThis){
+  print(printThis);
+}
 

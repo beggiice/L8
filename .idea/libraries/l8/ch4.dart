@@ -14,6 +14,12 @@
 // Paste getName here
 
 void main() {
-  
+  String name = getName('Hello man, what are you called');
+
 }
 
+
+String getName(){
+  print('What is your name?');
+  String userName = stdin.readLineSync();
+  return userName;

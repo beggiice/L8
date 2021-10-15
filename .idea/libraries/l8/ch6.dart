@@ -23,11 +23,28 @@
 import 'dart:io';
 
 void main() {
-  String userAns = stdin.readLineSync();
-  bool ans;
-  // Your code here
+  String userAns;
+  String ans;
+  while(true){
+    print('Yes or No ?');
+    String userAns = stdin.readLineSync();
+    bool ans;
+    if(userAns == "yes"){
+      ans = true;
+      break;
+    }else if (userAns == "no") {
+      ans = false;
+      break;
+    }
+      else {
+        print('Try agen');
 
-
-  // Your code here
+  }
+  }
   print('User put in $userAns, bool is now $ans');
-}
+  }
+
+  // Your code here
+
+
+  // Your code here

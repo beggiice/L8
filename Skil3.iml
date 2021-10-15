@@ -2,8 +2,13 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.idea/libraries/l8/build" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/libraries/l8/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/libraries/l8/.pub" />
+    </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>
