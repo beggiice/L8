@@ -9,12 +9,14 @@ import 'dart:convert';
 
 void main(List<String> arguments) {
 
+int in2 = 0;
 
   for ( int i = 1; i <= 10 ;i++){
 
     print(i);
-
+    in2 = in2 + i;
 
   }
+  print(in2);
 
 }
