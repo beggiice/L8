@@ -13,16 +13,19 @@ Here is the step-by-step algorithm to solve this challenge.
 (d) Divide num by 10 to remove last digit of the given number i.e. num = num / 10.
 (e) Repeat step c and d till num > 0 or num != 0
 */
+
 import 'dart:io';
 import 'dart:convert';
 
 
 
 void main() {
-  import 'dart:io';
-  void main()
+  String? name ;
+
   {
-    String name = stdin.readLineSync()!;
+
+    name = stdin.readLineSync();
+
     print("Hello, $name");
   }
 }
