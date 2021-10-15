@@ -18,14 +18,13 @@ import 'dart:io';
 import 'dart:convert';
 
 
-
 void main() {
-  String? name ;
+int numb ;
+int length ;
 
-  {
+  print('Type in a number');
+  numb = int.parse(stdin.readLineSync());
+  length = numb.toString().length;
 
-    name = stdin.readLineSync();
-
-    print("Hello, $name");
-  }
+  print('Your number is ${length} diggets');
 }
