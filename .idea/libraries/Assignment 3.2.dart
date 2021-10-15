@@ -25,7 +25,7 @@ void main(List<String> arguments) {
 int number;
 while(true){
   print('Type in a number from 1 to 10');
-  number = int.parse(stdin.readLineSync()!);
+  number = int.parse(stdin.readLineSync());
   while(number<=10 && number>0){
 
     for (int i = 1; i <= 10 ; i++){
